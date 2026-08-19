@@ -40,6 +40,13 @@
       "deb": {
         "depends": ["espeak-ng", "libwebkit2gtk-4.1-0", "libgtk-3-0"]
       }
+    },
+    "windows": {
+      "nsis": {
+        "displayLanguageSelector": false,
+        "installerIcon": "icons/icon.ico",
+        "languages": ["English"]
+      }
     }
   }
 }
